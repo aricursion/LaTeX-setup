@@ -1,3 +1,3 @@
 # LaTeX Setup
 
-This is just a repository for all my swee, sweet LaTeX commands
+This is just a repository for my sweet, sweet LaTeX prelude
