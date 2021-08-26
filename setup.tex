@@ -54,16 +54,16 @@
 
 \usepackage{amssymb}
 \usepackage[font={small, it}]{caption}
-\usepackage{amsmath}
 \usepackage{times}
 \usepackage{hyperref}
 \usepackage{ stmaryrd }
-\usepackage{amsthm}
+
 \usepackage{bm}
 \usepackage{mathrsfs}
 
 \usepackage[mathscr]{euscript}
-\usepackage{wasysym}
+% \usepackage{wasysym}
+\usepackage{amsthm}
 %\usepackage{pxfonts}
 \usepackage[letterpaper, portrait, margin=1in]{geometry}
 \usepackage{graphicx}
@@ -152,8 +152,8 @@
     \newcommand{\Gscr}{\mathscr{G}}
     \newcommand{\om}{\omega}
     \newcommand{\gfrak}{\mathfrak{g}}
-    \newcommand{\hfrak{\mathfrak{h}}
-    \newcommand{\kfrak}{\mathfrak{k}}
+    \newcommand{\hfrak}{\mathfrak{h}}
+   \newcommand{\kfrak}{\mathfrak{k}}
     \newcommand{\Om}{\Omega}
     \newcommand{\Fcal}{\mathcal{F}}
     \newcommand{\Oscr}{\mathscr{O}}
@@ -239,6 +239,7 @@
     \newcommand{\Cmat}{\textsf{C}}
     \newcommand{\gmat}{\textsf{g}}
     \newcommand{\Ccal}{\mathcal{C}}
+    \newcommand{\Rcal}{\mathcal{R}}
     \DeclareMathOperator{\Map}{Map}
     \DeclareMathOperator{\Frob}{Frob}
     \newcommand{\Imat}{\textsf{I}}
@@ -359,8 +360,10 @@
 \newcommand{\vect}[1]{\mathbf{#1}}
 \newcommand{\w}{\mathbf{w}}
 \newcommand{\x}{\mathbf{x}}
+\newcommand{\xalt}{\boldsymbol{\mathsf{x}}}
 \newcommand{\y}{\mathbf{y}}
 \renewcommand{\t}{\mathbf{t}}
+\newcommand{\I}{\mathbf{I}}
 
 % alternative variables
 \newcommand{\xtilde}{\tilde{x}}
@@ -368,6 +371,8 @@
 \newcommand{\cov}{\mathrm{cov}}
 \renewcommand{\var}{\mathrm{var}}
 \newcommand{\E}{\mathrm{E}}
+\renewcommand{\H}{\mathrm{H}}
+\newcommand{\ML}{\mathrm{ML}}
 % bad pictures
 \newcommand{\centerimg}[2][3]{
 \begin{center}
@@ -392,5 +397,5 @@
     \draw (6.25,2.5) to[bend left=20] (5.25,2.25);
     \draw (-1,7.08) to[bend right=90] (3.25,7.08);
     \draw (-1,7.08) to[bend left=90] (3.25,7.08);
-\end{tikzpicture}
-}
+\end{tikzpicture}}
+ 
